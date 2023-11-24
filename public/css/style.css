@@ -145,7 +145,7 @@ body{
     #map{
         width: 425px;
     }
-    .card-img-show{
+    .listing-card-img{
         width: 450px !important;
     }
 } 
@@ -162,7 +162,21 @@ body{
         width: 285px;
     }
     .container{
-        margin-left: 52px !important;
+        margin-left: 26px !important;
+    }
+    #filters{
+        margin-left: 150px !important;
+    }
+    .listing-card-index{
+        margin-left: 50px !important;
+    }
+    .show_list{
+        width: 425px !important;
+        height: 225px !important;
+    }
+    .img-index{
+        width: 255px !important;
+        height: 225px !important;
     }
 }
 @media (max-width: 740px){
@@ -203,8 +217,51 @@ body{
     .container{
         margin-left: -48px !important;
     }
+    .card-col{
+        margin-left: 3px !important;
+    }
 }
-
+@media(max-width: 576px){
+    .img_list{
+        width: 400px !important;
+    }
+    .img-index{
+        margin-left: 5px !important;
+        width: 520px !important;
+    }
+}
+@media(max-width: 566px){
+    .index-text{
+        margin-left: 14px;
+    }
+    .img-index{
+        margin-left: 14px !important;
+        width: 500px !important;
+    }
+}
+@media(max-width: 558px){
+    .index-text{
+        margin-left: 22px;
+    }
+    .img-index{
+        margin-left: 22px !important;
+        width: 500px !important;
+    }
+}
+@media(max-width: 520px){
+    .index-text{
+        margin-left: 30px;
+    }
+    .img-index{
+        margin-left: 30px !important;
+        width: 450px !important;
+    }
+}
+@media(max-width: 503px){
+    .tax-toggle{
+        display: none !important;
+    }
+}
 @media (max-width: 570px){
     .search-sect input{
         width: 165px;
@@ -245,6 +302,13 @@ body{
     .container{
         margin-right: 0px !important;
     }
+    .index-text{
+        margin-left: 45px;
+    }
+    .img-index{
+        margin-left: 45px !important;
+        width: 400px !important;
+    }
 }
 @media (max-width: 450px){
     .img_list{
@@ -252,6 +316,13 @@ body{
     }
     canvas{
         width: 385px !important;
+    }
+    .index-text{
+        margin-left: 65px;
+    }
+    .img-index{
+        margin-left: 65px !important;
+        width: 360px !important;
     }
 }
 @media (max-width: 430px){
@@ -265,10 +336,33 @@ body{
     .container{
         margin-left: -80px !important;
     }
+    .index-text{
+        margin-left: 65px;
+    }
+    .img-index{
+        margin-left: 65px !important;
+        width: 300px !important;
+    }
+}
+@media(max-width: 400px){
+    .index-text{
+        margin-left: 45px;
+    }
+    .img-index{
+        margin-left: 45px !important;
+        width: 300px !important;
+    }
 }
 @media (max-width: 380px){
     canvas{
         width: 325px !important;
         height: 350px !important;
+    }
+    .index-text{
+        margin-left: 35px;
+    }
+    .img-index{
+        margin-left: 35px !important;
+        width: 300px !important;
     }
 }

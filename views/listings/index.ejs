@@ -126,14 +126,14 @@
 </div>
 
 
-<div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 mt-3">
+<div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 mt-3 card-col">
   <% for (listing of listings) { %>
     <a href="/listings/<%= listing._id %>" class="listing-link">
-      <div class="card col listing-card">
-        <img src="<%= listing.image.url %>" class="card-img-top" alt="listing_image" style="height: 20rem;">
+      <div class="card col listing-card listing-card-index">
+        <img src="<%= listing.image.url %>" class="card-img-top img-index" alt="listing_image" style="height: 20rem;">
         <div class="card-img-overlay"></div>
         <div class="card-body">
-          <p class="card-text">
+          <p class="card-text index-text">
             <b><%= listing.title %></b>
             <br>
             <% if (listing.price !== undefined) { %>
