@@ -430,7 +430,7 @@ footer{
         width: 300px !important;
     }
 }
-@media (max-width: 360px){
+@media (max-width: 360px) or (max-width: 375px){
     .img_list{
         width: 250px !important;
     }
