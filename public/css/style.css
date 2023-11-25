@@ -24,8 +24,13 @@ body{
 .nav-link{
     color: #222222 !important;
 }
-
+.show{
+    overflow-x: hidden;
+}
 /* footer */
+footer{
+    width: 100vw;
+}
 .f-info-links a{
     text-decoration: none;
     color: #222222;
@@ -135,6 +140,9 @@ body{
 
 .tax-info{
     display: none;
+  }
+  .mapboxgl-ctrl-icon, .mapboxgl-ctrl-attrib-button{
+    display: none !important;
   }
 @media(max-width: 1115px){
     #map{
@@ -377,6 +385,7 @@ body{
         width: 350px !important;
     }
     canvas{
+        margin-left: -12px !important;
         width: 350px !important;
         height: 375px !important;
     }
