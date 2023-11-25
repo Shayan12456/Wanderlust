@@ -181,8 +181,15 @@ body{
         width: 255px !important;
         height: 225px !important;
     }
+    .signup-container, .login-container{
+       margin: auto;
+       width: 750px;
+    }
 }
 @media (max-width: 740px){
+    .signup-container, .login-container{
+       width: 700px;
+     }
     .container{
         margin-left: 26px !important;
     }
@@ -212,8 +219,14 @@ body{
     .container{
         margin-left: -36px !important;
     }
+    .new{
+        margin-left: 24px !important;
+    }
 }
 @media (max-width: 595px){
+    .new{
+        margin-left: 36px !important;
+    }
     .search-btn{
         display:none !important;
     }
@@ -225,6 +238,9 @@ body{
     }
 }
 @media(max-width: 576px){
+    .new{
+        margin-left: 48px !important;
+    }
     .img_list{
         width: 400px !important;
     }
@@ -234,6 +250,9 @@ body{
     }
 }
 @media(max-width: 566px){
+    .new{
+        margin-left: 60px !important;
+    }
     .index-text{
         margin-left: 14px;
     }
@@ -266,6 +285,9 @@ body{
     }
 }
 @media (max-width: 570px){
+    .signup-container, .login-container{
+        width: 650px;
+     }
     .search-sect input{
         width: 165px;
         margin-left: 2rem;
@@ -293,6 +315,9 @@ body{
     }
 }
 @media (max-width: 480px){
+    .file-input{
+        padding: 6px 6px !important;
+    }
     .search-sect{
         display: none !important;
     }
@@ -314,6 +339,15 @@ body{
     }
 }
 @media (max-width: 450px){
+    .file-input{
+        width: 240px !important;
+    }
+    .listing-create{
+        width: 240px !important;
+    }
+    .signup-container, .login-container{
+        width: 600px;
+     }
     .img_list{
         width: 375px !important;
     }
@@ -328,7 +362,14 @@ body{
         width: 360px !important;
     }
 }
+
 @media (max-width: 430px){
+    .new{
+        margin-left: 72px !important;
+    }
+    .signup-container, .login-container{
+        width: 550px;
+     }
     .img_list{
         width: 350px !important;
     }
@@ -348,6 +389,9 @@ body{
     }
 }
 @media(max-width: 400px){
+    .signup-container, .login-container{
+        width: 500px;
+     }
     .index-text{
         margin-left: 45px;
     }
@@ -357,6 +401,9 @@ body{
     }
 }
 @media (max-width: 380px){
+    .new{
+        margin-left: 36px !important;
+    }
     canvas{
         width: 325px !important;
         height: 350px !important;
