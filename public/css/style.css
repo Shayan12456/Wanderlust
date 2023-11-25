@@ -150,6 +150,9 @@ body{
     }
 } 
 @media (max-width: 767px){
+    .edit-btn{
+        width: 51px !important;
+    }
     .navbar-collapse{
         background-color: grey;
         /* border-radius: 25px; */

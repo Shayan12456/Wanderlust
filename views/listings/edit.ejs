@@ -1,5 +1,5 @@
 <%layout("layouts/boilerplate.ejs")%>
-<div class="row mt-3">
+<div class="row mt-3 new">
     <div class="col-8 offset-2">
         <h3>Edit your Listing</h3>
         <form method="POST" enctype="multipart/form-data" action="/listings/<%=listing._id%>?_method=PUT" novalidate class="needs-validation">
@@ -18,7 +18,7 @@
             <div class="mb-3" class="form-select form-select-lg mb-3">
                 <label for="listingCategory" class="form-label">Listing Category:</label>
                 <select class="form-select" name="listing[category]" id="listingCategory" required>
-                    <option value="" disabled selected>Select a category</option>
+                    <option value="" disabled selected><%=listing.category%></option>
                     <option value="Trending">Trending</option>
                     <option value="Rooms">Rooms</option>
                     <option value="Iconic-Cities">Iconic Cities</option>
