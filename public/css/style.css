@@ -26,11 +26,11 @@ body{
 }
 .show{
     overflow-x: hidden;
-    margin: -48px !important;
+    margin: -35x !important;
 }
 /* footer */
 footer{
-    width: 100vw;
+    /* width: 100vw; */
 }
 .f-info-links a{
     text-decoration: none;
@@ -137,14 +137,15 @@ footer{
 #map{
     height: 400px;
     width: 80vh;
+    margin-bottom: 4rem;
 }
 
 .tax-info{
     display: none;
   }
-  .mapboxgl-ctrl-icon, .mapboxgl-ctrl-attrib-button{
+  /* .mapboxgl-ctrl-icon, .mapboxgl-ctrl-attrib-button{
     display: none !important;
-  }
+  } */
 @media(max-width: 1115px){
     #map{
         width: 456px;
@@ -383,7 +384,7 @@ footer{
         width: 550px;
      }
     .img_list{
-        width: 350px !important;
+        width: 290px !important;
     }
     canvas{
         margin-left: -12px !important;
@@ -427,5 +428,10 @@ footer{
     .img-index{
         margin-left: 35px !important;
         width: 300px !important;
+    }
+}
+@media (max-width: 360px){
+    .img_list{
+        width: 250px !important;
     }
 }
